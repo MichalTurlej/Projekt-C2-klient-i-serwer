@@ -38,7 +38,7 @@ int main(){
 	if (buffer[0]=='*') { 
 buffer[0]='+';
  sendto(udpSocket,buffer,nBytes,0,(struct sockaddr *)&serverStorage,addr_size);
-} else { buffer[0]=='0';
+} else { buffer[1,2,3,4,5]='wynik';
 sendto(udpSocket,buffer,nBytes,0,(struct sockaddr *)&serverStorage,addr_size);
 }
 
